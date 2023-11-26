@@ -26,7 +26,9 @@ INSERT INTO products (id, name, category, quantity, is_deleted) VALUES
 (9, 'Ball', 'Toys', 75, false),
 (10, 'Table', 'Furniture', 5, false);
 
-in this project PostgreSql has been used for h2 dependency : 
+in this project PostgreSql has been used.
+
+For h2 dependency : 
 
 <dependency>
     <groupId>com.h2database</groupId>
@@ -35,6 +37,7 @@ in this project PostgreSql has been used for h2 dependency :
 </dependency>
 
 and properties :
+
 spring.datasource.url=jdbc:h2:mem:testdb
 spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=sa
